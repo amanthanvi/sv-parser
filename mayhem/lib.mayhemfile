@@ -1,0 +1,7 @@
+project: sv-parser
+target: lib
+
+cmds:
+  - cmd: /lib
+  - cmd: /lib_no_inst @@
+    libfuzzer: false
