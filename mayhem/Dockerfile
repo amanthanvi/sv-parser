@@ -1,5 +1,5 @@
 # Build Stage
-FROM ghcr.io/amanthanvi/sv-parser:latest as builder
+FROM ghcr.io/amanthanvi/cargo-fuzz as builder
 
 ## Add source code to the build stage.
 ADD . /
